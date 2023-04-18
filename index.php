@@ -53,6 +53,32 @@
     <title>PHP - Hotel</title>
 </head>
 <body>
+
+    <!-- stampare in pagina l'array di hotel senza stilizzazione -->
+    <h1>HOTELS</h1>
+        <div>
+    
+            <?php 
+
+                foreach ($hotels as $hotel){
+
+                    foreach ($hotel as $key => $info){
+
+                        echo "<b>{$key}</b>: {$info} <br>";
+
+                    }
+
+                }
+            
+            
+            
+            
+            
+            
+            ?>
+            
+
+        </div>
     
 </body>
 </html>
